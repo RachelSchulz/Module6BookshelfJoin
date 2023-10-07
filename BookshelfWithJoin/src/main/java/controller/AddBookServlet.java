@@ -1,8 +1,10 @@
 package controller;
 import model.Book;
-
+import model.Category;
 
 import java.io.IOException;
+
+import javax.persistence.NoResultException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

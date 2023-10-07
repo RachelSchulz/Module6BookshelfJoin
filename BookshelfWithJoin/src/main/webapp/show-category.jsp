@@ -15,6 +15,12 @@
 				<td>${currentCategory.categoryName}|</td>
 				<td>${currentCategory.abbreviation}</td>
 			</tr>
+			<c:forEach items="${currentCategory.books}" var="currentbook">
+				<tr>
+					<td>{currentbook.author}|</td>
+					<td>{currentbook.title}</td>
+				</tr>
+			</c:forEach>
 		</c:forEach>
 	</table>
 	<p><a href="index.jsp">Home</a></p>

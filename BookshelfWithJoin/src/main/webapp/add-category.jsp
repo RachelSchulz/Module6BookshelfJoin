@@ -15,5 +15,6 @@
 
 	<p><a href="index.jsp">Home</a></p>
 	<p><a href="showCategory">Show All Categories</a></p>
+	<p><a href = "showBook">Show All Books</a></p>
 </body>
 </html>

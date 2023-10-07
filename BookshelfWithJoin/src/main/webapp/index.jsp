@@ -17,8 +17,9 @@
 	
 	
 	
-	<p><a href = "showBook">View all books</a></p>
-	<p><a href = "addCategory">Add A Category</a></p>
+	<p><a href = "showBook">Show All Books</a></p>
+	<p><a href="showCategory">Show All Categories</a></p>
+	<p><a href = "add-category.jsp">Add A Category</a></p>
 	
 
 </body>

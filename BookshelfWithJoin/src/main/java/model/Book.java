@@ -22,7 +22,7 @@ public class Book {
 	private String author;
 	@Column(name="TITLE")
 	private String title;
-	@ManyToOne(cascade = CascadeType.ALL)
+	@ManyToOne(cascade = CascadeType.MERGE)
 	@JoinColumn(name = "CATEGORYID", nullable=false)
 	private Category category = new Category();
 	
